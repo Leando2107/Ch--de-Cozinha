@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Convite Chá de Cozinha Arraiá</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="convite">
+    <div class="bandeirinhas" aria-hidden="true">
+      <div class="bandeirinha"></div>
+      <div class="bandeirinha"></div>
+      <div class="bandeirinha"></div>
+    </div>
+
+    <h1>Chá de Arraiá</h1>
+    <p>Leandro & Bianca convidam você para uma festa cheia de alegria, comidas típicas e muita diversão!</p>
+
+    <div class="detalhes" role="region" aria-label="Detalhes do evento">
+      <p>📅 <strong>Data:</strong> 12 de Julho de 2025</p>
+      <p>⏰ <strong>Hora:</strong> 14:00</p>
+      <p>📍 <strong>Local:</strong> Rua Pastor Jair A.C  Franco nº328 Jardim Florido Capivari</p>
+    </div>
+
+    <button class="btn-confirmar" onclick="window.open('https://docs.google.com/spreadsheets/d/12H0krIS6ii87JpkynjBDX-S80EsqyIg_vuTMJ8KNrM4/edit?usp=sharing', '_blank')" aria-label="Acessar lista de presentes">
+      🎁 Ver Lista de Presentes
+    </button>
+
+    <div id="msg-status" role="alert" aria-live="polite"></div>
+
+    <ul id="lista-presentes"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
